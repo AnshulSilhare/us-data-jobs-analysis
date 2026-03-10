@@ -152,7 +152,7 @@ Lower than expected. Most companies still want you in the office.
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/us-data-analyst-job-market-python.git
+git clone https://github.com/AnshulSilhare/us-data-analyst-job-market-python.git
 cd us-data-analyst-job-market-python
 ```
 
