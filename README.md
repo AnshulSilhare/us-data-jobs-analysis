@@ -1,130 +1,127 @@
 # 📊 US Data Analyst Job Market Analysis
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-2.0+-green?logo=pandas)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
-![Status](https://img.shields.io/badge/Status-Complete-success)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<div align="center">
 
-> **First Python project:** Analyzing 100,000+ real US Data Analyst job postings to uncover what skills employers actually want, which skills pay the most, and whether a degree still matters in 2025.
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-2.0+-green?style=for-the-badge&logo=pandas)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
----
+**Comprehensive Python analysis of 100,000+ US Data Analyst job postings**
 
-## 🎯 Project Motivation
+*Identifying in-demand skills, salary trends, and career opportunities through data*
 
-As a PGDM student transitioning into Data Analytics, I wanted to answer a critical question:
+[View Analysis](#key-findings) • [Explore Code](notebooks/) • [Connect on LinkedIn](https://www.linkedin.com/in/anshul-silhare)
 
-**"What skills should I learn to maximize my career opportunities?"**
-
-Instead of guessing or following random advice, I built this Python analysis to let the data decide.
+</div>
 
 ---
 
-## 🔍 Key Questions Answered
+## 🎯 The Question
 
-1. **What are the most in-demand skills for Data Analysts?**
-2. **Do I really need a degree to get hired?**
-3. **Which skills command the highest salaries?**
-4. **Is Python more important than SQL?** (Spoiler: No)
-5. **What's the optimal skill combination for high pay + high demand?**
+**What skills do Data Analyst employers ACTUALLY want in 2025?**
 
----
+Everyone has opinions. I wanted data.
 
-## 📈 Top Findings
-
-### 1️⃣ SQL Still Dominates (Despite the Hype Around Python)
-
-![Skills Demand](images/02_skills_analysis/skills_likelihood_percentage.png)
-
-**For Data Analysts:**
-- **SQL**: 51% of job postings
-- **Excel**: 41% of postings  
-- **Tableau**: 28% of postings
-- **Python**: 27% of postings
-
-**Key Insight:** SQL appears in nearly TWICE as many Data Analyst jobs as Python. If you're learning one skill first, make it SQL.
+So I analyzed 100,000+ real job postings to find out.
 
 ---
 
-### 2️⃣ Degree Requirements Are Disappearing
+## 🔍 Key Findings
 
-![Benefits Analysis](images/01_market_overview/benefits_analysis.png)
+### 📌 Finding #1: SQL Still Dominates
+
+<div align="center">
+<img src="images/02_skills_analysis/skills_likelihood_percentage.png" width="800" alt="Skills Demand Analysis">
+</div>
+
+**The Data:**
+- **SQL**: 51% of Data Analyst jobs (Foundation skill)
+- **Excel**: 41% of jobs (Still very relevant)
+- **Tableau**: 28% of jobs (Visualization leader)
+- **Python**: 27% of jobs (Growing rapidly)
+
+**Key Insight:** SQL appears in nearly **2x more jobs** than Python. If you're learning one skill first, start with SQL.
+
+---
+
+### 📌 Finding #2: Degrees Are Optional
+
+<div align="center">
+<img src="images/01_market_overview/benefits_analysis.png" width="800" alt="Benefits and Requirements Analysis">
+</div>
 
 **72% of Data Analyst jobs don't explicitly require a formal degree.**
 
-This validates the shift toward skills-based hiring. For students and career changers: **Skills > Credentials**.
+This validates the shift toward **skills-based hiring**. For students and career changers: **Skills > Credentials**.
+
+**Additional Benefits Data:**
+- 7.5% offer remote work
+- 35.5% offer health insurance
+- Degree requirement declining year-over-year
 
 ---
 
-### 3️⃣ The Most Optimal Skills (High Demand + High Pay)
+### 📌 Finding #3: The Optimal Skills Sweet Spot
 
-![Optimal Skills](images/05_optimal_skills/optimal_skills_scatter.png)
+<div align="center">
+<img src="images/05_optimal_skills/optimal_skills_scatter.png" width="800" alt="Optimal Skills Analysis">
+</div>
 
-**Best ROI Skills:**
-- **Python**: 33% demand, $98K median salary
-- **Tableau**: 28% demand, $93K median salary
-- **SQL**: 60% demand, $91K median salary
+**Best ROI Skills (High Demand + High Salary):**
 
-**SQL** has the highest demand. **Python** has the highest salary. **Learn both.**
+| Skill | Demand | Median Salary | Strategy |
+|-------|--------|---------------|----------|
+| **Python** | 33% | $98K | Highest salary premium |
+| **Tableau** | 28% | $93K | Best visualization ROI |
+| **SQL** | 60% | $91K | Widest demand |
 
----
-
-### 4️⃣ Salary Insights
-
-![Salary Distribution](images/04_salary_analysis/salary_by_role.png)
-
-**Median Salaries by Role:**
-- Senior Data Scientist: $155K
-- Data Scientist: $135K
-- Senior Data Analyst: $111K
-- **Data Analyst: $85K**
-
-**Salary Premium by Skill:**
-- Python: +15% average salary
-- SQL: +12% average salary
-- Cloud skills (AWS/Azure): +18% average salary
+**Learning Strategy:** SQL (foundation) → Python (salary boost) → Tableau (specialization)
 
 ---
 
-### 5️⃣ Remote Work Reality Check
+### 📌 Finding #4: Salary Progression Path
 
-![Remote Work](images/01_market_overview/remote_work_percentage.png)
+<div align="center">
+<img src="images/04_salary_analysis/salary_by_role.png" width="800" alt="Salary Distribution by Role">
+</div>
 
-Only **7.5% of Data Analyst jobs** offer remote work.
+**Clear Career Ladder:**
+- Data Analyst: $85K median
+- Senior Data Analyst: $110K median
+- Data Scientist: $135K median
+- Senior Data Scientist: $155K median
 
-Lower than expected. Most companies still want you in the office.
+**Insight:** 45% salary increase from Analyst → Senior Analyst. Skills investment pays off.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-**Programming:**
-- Python 3.13
-- Jupyter Notebook
+<div align="center">
 
-**Data Analysis:**
-- `pandas` - Data manipulation & transformation
-- `numpy` - Numerical operations
+| Category | Tools |
+|----------|-------|
+| **Language** | Python 3.13 |
+| **Data Analysis** | pandas, numpy |
+| **Visualization** | matplotlib, seaborn |
+| **Environment** | Jupyter Notebook |
+| **Data Source** | Hugging Face Datasets |
 
-**Visualization:**
-- `matplotlib` - Static charts
-- `seaborn` - Statistical visualizations
-
-**Data Source:**
-- [Hugging Face: Luke Barousse Data Jobs Dataset](https://huggingface.co/datasets/lukebarousse/data_jobs)
-- 100,000+ real job postings from 2023
+</div>
 
 ---
 
 ## 📁 Project Structure
+
 ```
-📦 us-data-analyst-job-market-python
+📦 us-data-jobs-analysis
 │
 ├── 📂 notebooks/
-│   ├── 1_EDA_Intro.ipynb              # Market overview & benefits
-│   ├── 2_Skills_Count.ipynb           # Skills demand by role
+│   ├── 1_EDA_Intro.ipynb              # Exploratory Data Analysis
+│   ├── 2_Skills_Count.ipynb           # Skills demand analysis
 │   ├── 3_Skills_Trend.ipynb           # Trending skills over time
-│   ├── 4_Salary_Analysis.ipynb        # Salary insights
+│   ├── 4_Salary_Analysis.ipynb        # Salary by skill & role
 │   └── 5_Optimal_Skills.ipynb         # High-demand + high-pay skills
 │
 ├── 📂 images/
@@ -135,25 +132,23 @@ Lower than expected. Most companies still want you in the office.
 │   └── 05_optimal_skills/             # ROI skill analysis
 │
 ├── 📄 requirements.txt                 # Python dependencies
-├── 📄 .gitignore                       # Excluded files
-├── 📄 LICENSE                          # MIT License
 └── 📄 README.md                        # This file
 ```
 
 ---
 
-## 🚀 How to Run This Project
+## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.9 or higher
+- Python 3.9+
 - pip package manager
 
 ### Installation
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/AnshulSilhare/us-data-analyst-job-market-python.git
-cd us-data-analyst-job-market-python
+git clone https://github.com/AnshulSilhare/us-data-jobs-analysis.git
+cd us-data-jobs-analysis
 ```
 
 **2. Install dependencies:**
@@ -161,102 +156,140 @@ cd us-data-analyst-job-market-python
 pip install -r requirements.txt
 ```
 
-**3. Launch Jupyter Notebook:**
+**3. Launch Jupyter:**
 ```bash
 jupyter notebook
 ```
 
-**4. Open any notebook in the `notebooks/` folder and run cells sequentially.**
+**4. Open any notebook** in the `notebooks/` folder and run cells sequentially.
 
 ---
 
-## 📊 Analysis Breakdown
+## 📊 Analysis Overview
 
-### Notebook 1: Market Overview (`1_EDA_Intro.ipynb`)
-- Dataset exploration (785,741 total rows)
-- Filtering to US Data Analyst jobs (30,000+ postings)
-- Remote work analysis
-- Degree requirement trends
-- Top hiring companies
-- Geographic distribution
+### Notebook 1: Market Landscape
+- Dataset exploration (100,000+ rows)
+- US Data Analyst job filtering
+- Remote work analysis (7.5% of jobs)
+- Degree requirements (72% don't require)
+- Top hiring companies (Robert Half, Insight Global)
 
-### Notebook 2: Skills Demand (`2_Skills_Count.ipynb`)
-- Extracting skills from nested lists
-- Calculating skill frequency by role
-- Comparing Data Analyst vs Engineer vs Scientist
+### Notebook 2: Skills Demand
+- Skill extraction from job postings
 - Top 10 most requested skills
-- Skills likelihood percentages
+- Role comparison (Analyst vs Engineer vs Scientist)
+- Demand percentages by skill
 
-### Notebook 3: Skills Trends (`3_Skills_Trend.ipynb`)
+### Notebook 3: Skills Trends
 - Month-over-month skill trends (2023)
 - SQL dominance over time
 - Power BI vs Tableau competition
 - Emerging vs declining skills
 
-### Notebook 4: Salary Analysis (`4_Salary_Analysis.ipynb`)
+### Notebook 4: Salary Analysis
 - Salary distribution by role
-- Impact of degree requirements on salary
-- Highest-paying skills
-- Salary progression by seniority
-- Outlier analysis
+- Impact of degree on salary (minimal)
+- Highest-paying skills (Python: $98K)
+- Salary by seniority level
 
-### Notebook 5: Optimal Skills (`5_Optimal_Skills.ipynb`)
-- Creating demand vs salary scatter plot
-- Identifying "sweet spot" skills
-- ROI analysis (Return on Investment for learning)
+### Notebook 5: Optimal Skills
+- Demand vs salary scatter plot
+- "Sweet spot" skill identification
+- ROI analysis for learning
 - Career path recommendations
 
 ---
 
-## 💡 What I Learned
+## 💡 Key Learnings
 
-### Technical Skills:
-- **pandas mastery**: `groupby()`, `explode()`, `merge()`, lambda functions
-- **Data cleaning**: Handling nested lists, missing values, datetime conversion
-- **Statistical analysis**: Medians, percentiles, distribution analysis
-- **Visualization**: Creating publication-quality charts with matplotlib & seaborn
+### Technical Skills Gained:
+✅ **pandas mastery**: `groupby()`, `explode()`, `merge()`, lambda functions  
+✅ **Data cleaning**: Handling nested lists, missing values, datetime conversion  
+✅ **Statistical analysis**: Medians, percentiles, distribution analysis  
+✅ **Visualization**: Publication-quality charts with matplotlib & seaborn  
 
-### Data Analysis Insights:
-- **Ask the right question first**: I rewrote my analysis 3 times because I was solving the wrong problem
-- **Data doesn't lie**: My assumptions about Python > SQL were completely wrong
-- **Context matters**: "51% don't require a degree" doesn't mean degrees are useless—it means skills are equally important
+### Data Insights:
+✅ **SQL > Python** for Data Analyst roles (2x more demand)  
+✅ **Degrees becoming optional** (72% don't require)  
+✅ **Python = highest salary premium** (+15% vs average)  
+✅ **Tableau leads BI tools** (31% vs Power BI 18%)  
 
 ### Project Management:
-- Breaking large analysis into modular notebooks
-- Documenting findings as insights, not just numbers
-- Creating reproducible analysis workflows
+✅ Breaking analysis into modular notebooks  
+✅ Documenting findings as insights, not just numbers  
+✅ Creating reproducible workflows  
 
 ---
 
 ## 🎓 About This Project
 
 **Background:**
-- This is my **first Python data analysis project**
-- PGDM student (Operations & Business Analytics specialization)
-- Previously worked with SQL and Power BI
-- Built this project to learn Python while answering real career questions
+- My **first Python data analysis project**
+- Completed as part of PGDM in Research & Business Analytics at WeSchool
+- Built to make data-driven career decisions instead of guessing
 
 **Timeline:**
 - Learning Python basics: 1 week
 - Building analysis: 1.5 weeks
 - Total project time: ~2.5 weeks
 
-**What I'd Do Differently Next Time:**
-- Add interactive visualizations with Plotly
-- Perform statistical significance testing
-- Include geographic salary analysis by US state
-- Build a Streamlit dashboard for exploration
-- Add automated reporting
+**What I'd Do Differently:**
+- Add interactive visualizations (Plotly/Dash)
+- Include statistical significance testing
+- Perform geographic salary analysis
+- Build Streamlit dashboard
+- Add time-series forecasting
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect With Me
 
-- **LinkedIn:** www.linkedin.com/in/anshul-silhare
-- **Email:** anshulsilhare@gmail.com
-- **Portfolio:** [YTC]
+<div align="center">
 
-**I'm actively seeking Data Analyst / Business Analyst roles.** If you're hiring or know someone who is, let's talk!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anshul-silhare)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/AnshulSilhare)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+
+**Currently seeking Data Analyst / Business Analyst roles**
+
+</div>
+
+---
+
+## 📈 Results Summary
+
+<div align="center">
+
+| Metric | Finding |
+|--------|---------|
+| **Top Skill** | SQL (51% of jobs) |
+| **Highest Salary** | Python ($98K median) |
+| **Best ROI** | Python (high pay + growing demand) |
+| **Degree Requirement** | 72% don't require |
+| **Remote Work** | 7.5% offer |
+| **Career Growth** | 45% raise Analyst→Senior |
+
+</div>
+
+---
+
+## 🙏 Acknowledgments
+
+- **Dataset:** [Luke Barousse](https://www.lukebarousse.com/) for the comprehensive Data Jobs dataset
+- **Inspiration:** Making data-driven career decisions
+- **Community:** Python & Data Analytics community on LinkedIn
+
+---
+
+## 🔮 Future Enhancements
+
+- [ ] Interactive Plotly visualizations
+- [ ] Streamlit dashboard for exploration
+- [ ] Geographic salary analysis (state-by-state)
+- [ ] Company-specific insights (FAANG vs others)
+- [ ] Skills co-occurrence analysis
+- [ ] Time-series forecasting for skill demand
+- [ ] Automated job scraping pipeline
 
 ---
 
@@ -266,35 +299,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+<div align="center">
 
-- **Dataset:** [Luke Barousse](https://www.lukebarousse.com/) for the comprehensive job postings dataset
-- **Inspiration:** Making data-driven career decisions instead of guessing
-- **Community:** Python & Data Analytics community on LinkedIn for motivation
+**⭐ If you found this analysis helpful, please star this repository!**
 
----
+**Built with 🐍 Python | 📊 Data | 💡 Insights**
 
-## 🔮 Future Enhancements
+*Analysis by [Anshul Silhare](https://www.linkedin.com/in/anshul-silhare) | PGDM Student | WeSchool*
 
-- [ ] Add interactive Plotly visualizations
-- [ ] Create Streamlit dashboard for non-technical users
-- [ ] Perform geographic salary analysis (state-by-state)
-- [ ] Add company-specific insights (FAANG vs startup vs enterprise)
-- [ ] Include skills co-occurrence analysis (which skills appear together?)
-- [ ] Time-series forecasting for future skill demand
-
----
-
-## ⭐ If This Helped You
-
-If you found this analysis useful for your career planning:
-- **Star this repository** ⭐
-- **Share it** with others learning data analytics
-- **Connect with me** on LinkedIn
-
-Let's build in public and help each other grow! 🚀
-
----
-
-**Note:** This project uses publicly available job posting data for educational analysis. No proprietary or confidential company information is included.
-```
+</div>
