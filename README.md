@@ -567,27 +567,23 @@ Operations Analytics roles value **Python almost as much as SQL** (47% vs 46%), 
 
 ### Prerequisites
 
-- **Python 3.9+** installed ([Download here](https://www.python.org/downloads/))
+- **Python 3.12+** installed ([Download here](https://www.python.org/downloads/))
 - **pip** package manager (included with Python)
-- **Jupyter Notebook** (or JupyterLab)
+- **VS Code** ([Download here](https://code.visualstudio.com/)) with the **Jupyter extension** installed 
+  *(Alternatively, you can use standard Jupyter Notebook or JupyterLab)*
 
 ### Installation & Setup
 
 **1. Clone this repository:**
 ```bash
-git clone https://github.com/AnshulSilhare/us-data-jobs-analysis.git
-cd us-data-jobs-analysis
+git clone https://github.com/AnshulSilhare/us-data-jobs-analysis.git && cd us-data-jobs-analysis
+
 ```
 
 **2. Create a virtual environment (recommended):**
 ```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
+conda create -n data_jobs python=3.13 -y && \
+conda activate data_jobs
 ```
 
 **3. Install dependencies:**
@@ -597,12 +593,9 @@ pip install -r requirements.txt
 
 **4. Launch Jupyter Notebook:**
 ```bash
-jupyter notebook
+code .
+or jupyter notebook
 ```
-
-**5. Open any notebook in `notebooks/` folder and run cells sequentially.**
-
----
 
 ## 📊 Analysis Methodology
 
@@ -808,7 +801,7 @@ I was overwhelmed by conflicting advice on what to learn:
 
 **I needed data, not opinions.**
 
-So I spent 2.5 weeks building this analysis to make *data-driven* career decisions instead of guessing.
+So I spent 2 weeks building this analysis to make *data-driven* career decisions instead of guessing.
 
 **The result:** A clear skill learning roadmap backed by 100,000+ job postings.
 
